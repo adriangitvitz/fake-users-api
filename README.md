@@ -37,3 +37,9 @@ uv sync
 ```shell
 fastapi dev users_api/main.py
 ```
+
+### Endpoint
+
+```shell
+curl http://localhost:8000/users?page=1
+```
