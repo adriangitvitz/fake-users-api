@@ -1,6 +1,7 @@
 ## Generate Fake Users
 
 Returns fake users using `faker` python library in the same JSON format as [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users). 
+It returns valid and invalid emails to explore validation, and supports pagination.
 
 ```json
 {
